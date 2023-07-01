@@ -26,6 +26,13 @@ include 'config.php';
     <title>My Account || GORGEOUS Skin Specialist</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="css/footer.css">
+
+    <style>
+      body{
+        background-color:#F2DBDB;
+      }
+      </style>
   </head>
   <body>
 
@@ -184,17 +191,17 @@ include 'config.php';
 
 
     <div class="footer-basic">
-        <footer>
+    <footer>
 
-        <img class="footerimage" src="images/logo-gorgeous.png"></img>
-         
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="index.php">Home</a></li>
-                <li class="list-inline-item"><a href="products.php">Products</a></li>
-                <li class="list-inline-item"><a href="contact.php">Contact</a></li>
-            </ul>
-            <p class="copyright">GORGEOUS Skin Specialist © 2023</p>
-        </footer>
+<img class="footerimage" src="images/logo-gorgeous.png"></img>
+ 
+    <ul class="list-inline">
+        <li class="list-inline-item"><a href="index.php">Home</a></li>
+        <li class="list-inline-item"><a href="products.php">Products</a></li>
+        <li class="list-inline-item"><a href="contact.php">Contact</a></li>
+    </ul>
+    <p class="copyright">GORGEOUS Skin Specialist © 2023</p>
+</footer>
     </div>
 
       </div>
