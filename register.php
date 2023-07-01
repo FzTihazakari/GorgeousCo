@@ -17,6 +17,42 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
     <link rel="stylesheet" href="css/footer.css">
+
+    <style>
+    .footer-basic {
+      background-color: #ffffff;
+      color: #4b4c4d;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .footer-basic ul {
+      padding: 0;
+      list-style: none;
+      text-align: center;
+      font-size: 16px;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    .footer-basic ul li {
+      display: inline-block;
+      padding: 0 8px;
+    }
+
+    .footer-basic .footerimage {
+      display: block;
+      margin: 0 auto;
+      width: 160px;
+    }
+
+    .footer-basic p {
+      margin: 10px auto 0;
+      text-align: center;
+      font-size: 12px;
+      color: #aaa;
+    }
+      </style>
   </head>
   <body background="path/to/loginpage.jpg">
      
@@ -142,30 +178,16 @@ if (isset($_SESSION["username"])) {header ("location:index.php");}
       </div>
     </form>
 
-
-    <div class="row" style="margin-top:10px;">
-      <div class="small-12">
-
-      <div class="footer-basic">
-      <footer style="padding: 3px 0; background-color: #ffffff; color: #4b4c4d; position: fixed; bottom: 0; left: 0; width: 100%;">
-    <img class="footerimage" src="images/logo-gorgeous.png" style="display: block; margin: 0 auto; width: 160px;">
-    <ul class="list-inline" style="padding: 0; list-style: none; text-align: center; font-size: 16px; line-height: 1.6; margin: 0;">
-        <li class="list-inline-item" style="padding: 0 8px;"><a href="index.php">Home</a></li>
-        <li class="list-inline-item" style="padding: 0 8px;"><a href="products.php">Products</a></li>
-        <li class="list-inline-item" style="padding: 0 8px;"><a href="contact.php">Contact</a></li>
-    </ul>
-    <p class="copyright" style="margin: 10px auto 0; text-align: center; font-size: 12px; color: #aaa;">
-        GORGEOUS Skin Specialist © 2023
-    </p>
-</footer>
-    </div>
-
-      </div>
-    </div>
-
-
-
-
+      <footer class="footer-basic">
+        <img class="footerimage" src="images/logo-gorgeous.png">
+        <ul>
+          <li><a href="index.php">Home</a></li><br>
+          <li><a href="products.php">Products</a></li><br>
+          <li><a href="contact.php">Contact</a></li>
+        </ul>
+        <p>GORGEOUS Skin Specialist © 2023</p>
+      </footer>
+  
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
