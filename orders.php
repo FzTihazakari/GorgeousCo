@@ -75,7 +75,7 @@ include 'config.php';
         echo '<p><strong>Product Name</strong>: '.$obj->product_name.'</p>';
         echo '<p><strong>Price Per Unit</strong>: '.$obj->price.'</p>';
         echo '<p><strong>Units Bought</strong>: '.$obj->units.'</p>';
-        echo '<p><strong>Total Cost</strong>: '.$currency.$obj->total.'</p>';
+        echo '<p><strong>Total Cost</strong>: MYR '.$obj->total.'</p>';
         echo '<p><hr style="border-top: 1px solid #000; margin-top: 10px; margin-bottom: 10px;"></p>';
       }
     }
